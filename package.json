@@ -1,0 +1,23 @@
+{
+  "name": "pro-angularjs",
+  "version": "0.0.0",
+  "description": "pro-angularjs =============",
+  "main": "index.js",
+  "dependencies": {
+    "connect": "^2.14.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gsong/pro-angularjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gsong/pro-angularjs/issues"
+  },
+  "homepage": "https://github.com/gsong/pro-angularjs"
+}
