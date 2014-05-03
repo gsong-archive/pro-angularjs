@@ -1,1 +1,3 @@
 node_modules
+deployd/sportsstore/.dpd/pids
+mongod.lock
