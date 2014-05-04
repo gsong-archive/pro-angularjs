@@ -1,7 +1,7 @@
 angular.module("sportsStore")
 .constant("productListActiveClass", "btn-primary")
 .constant("productListPageCount", 3)
-.controller("productListCtrl", function ($scope, productListActiveClass, productListPageCount) {
+.controller("productListCtrl", function ($scope, productListActiveClass, productListPageCount, cart) {
     var selectCategory = null;
 
     $scope.selectedPage = 1;
@@ -26,5 +26,9 @@ angular.module("sportsStore")
 
     $scope.getPageClass = function (page) {
         return $scope.selectedPage == page ? productListActiveClass : "";
+    };
+
+    $scope.addProductToCart = function (product) {
+        cart.addProduct(product.id, product.name, product.price);
     };
 });
